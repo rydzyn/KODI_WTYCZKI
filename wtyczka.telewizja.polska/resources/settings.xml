@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+	<category label="Konta / Premium">
+		<setting type="sep"/>
+		<setting type="lsep" label="pure-cast"/>
+		<setting id="email_PC" type="text" label="E-mail" default="" />
+		<setting id="pass_PC" type="text" option="hidden" label="Hasło" default="" />
+		<setting type="sep"/>
+		
+		<setting type="lsep" label="itivi (testowo / zmiany nic nie dają)"/>
+		<setting id="user_itivi" type="text" label="E-mail" default="demo" />
+		<setting id="pass_ivivi" type="text" option="hidden" label="Hasło" default="demopassword" />
+		<setting type="sep"/>
+	</category>
+	<category label="Player.pl">
+		<setting id="auto_quality" type="bool" label="30042" default="true"/>
+		<setting type="sep" />
+		<setting label="Darmowe proxy - http://spys.ru/free-proxy-list/PL/" type="lsep"/>
+		<setting id="pl_proxy" type="text" label="30040" default=""/>
+		<setting id="pl_proxy_port" type="text" label="30041" default=""/>
+		<setting id="pl_proxy_user" type="text" label="30043" default=""/>
+		<setting id="pl_proxy_pass" type="text" label="30044" default=""/>
+	</category>
+</settings>

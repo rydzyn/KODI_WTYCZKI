@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.module.tvnplayer"
+       name="Moduł TVN Player"
+       version="1.0.0"
+       provider-name="..::noVak::..">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.simplejson" version="2.0.10"/>
+  </requires>
+  <extension point="xbmc.python.module"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Moduł Player.pl</summary>
+    <description>Moduł TVN Player[CR][CR]Orginalby kod "SMUTO"</description>
+    <platform>all</platform>
+  </extension>
+</addon>
